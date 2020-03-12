@@ -13,6 +13,12 @@ spring:
         health-check-interval: 10s
         tags: ${spring.application.name}
         prefer-ip-address: true
+  #rabbitmq配置，用于config配置文件自动刷新
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest      
   #druid连接池配置
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
