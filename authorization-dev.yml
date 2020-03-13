@@ -62,8 +62,5 @@ spring:
     password:
     timeout: 10000ms
 # config自动刷新验证参数
-custom:
-  username: guest-new1
-  passwd: guest-new2
 profile: test-1111
 
