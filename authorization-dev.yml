@@ -65,5 +65,5 @@ spring:
 custom:
   username: guest-new
   passwd: guest-new
-profile: test-old1
+profile: test-new
 
