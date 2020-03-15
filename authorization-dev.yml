@@ -1,11 +1,4 @@
-server:
-  port: 9020
-
 spring:
-  profiles:
-    active: dev
-  application:
-    name: springcloud-authorization
 #consul客户端配置
   cloud:
     consul:
